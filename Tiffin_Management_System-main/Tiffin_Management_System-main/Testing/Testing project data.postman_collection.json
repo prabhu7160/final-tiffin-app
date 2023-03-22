@@ -1,0 +1,612 @@
+{
+	"info": {
+		"_postman_id": "624c8aa9-6686-4ff6-b34e-7f7dfb9a25e4",
+		"name": "Testing project data",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"userName\":\"Aditya\",\r\n    \"email\":\"aditya@123\",\r\n    \"password\":\"pass@123\",\r\n    \"phone\":\"9870543210\",\r\n    \"role\":\"user\",\r\n    \"aadharNo\":\"647382463765\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8082/signup/users",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8082",
+					"path": [
+						"signup",
+						"users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8082/signup/users",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"userName\":\"Adinath\",\r\n    \"email\":\"adinath@123\",\r\n    \"password\":\"pass@123\",\r\n    \"phone\":\"9876543210\",\r\n    \"role\":\"user\",\r\n    \"aadharNo\":\"976857463765\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8082/signup/users",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8082",
+					"path": [
+						"signup",
+						"users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8082/signup/users",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"userName\":\"Adinath\",\r\n    \"email\":\"adinath@123\",\r\n    \"password\":\"pass@123\",\r\n    \"phone\":\"9876543210\",\r\n    \"role\":\"user\",\r\n    \"aadharNo\":\"976857463765\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8082/signup/users",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8082",
+					"path": [
+						"signup",
+						"users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8082/signup/users",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"userName\":\"Aditya\",\r\n    \"email\":\"aditya@123\",\r\n    \"password\":\"pass@123\",\r\n    \"phone\":\"9870543210\",\r\n    \"role\":\"delivery\",\r\n    \"aadharNo\":\"647382463765\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8082/signup/users",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8082",
+					"path": [
+						"signup",
+						"users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8082/signup/users",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"userName\":\"Arti\",\r\n    \"email\":\"arti@123\",\r\n    \"password\":\"pass@123\",\r\n    \"phone\":\"9870456210\",\r\n    \"role\":\"delivery\",\r\n    \"aadharNo\":\"6656432463765\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8082/signup/users",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8082",
+					"path": [
+						"signup",
+						"users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8082/signup/users",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"userName\":\"Abdul\",\r\n    \"email\":\"abdul@123\",\r\n    \"password\":\"pass@123\",\r\n    \"phone\":\"9870986210\",\r\n    \"role\":\"admin\",\r\n    \"aadharNo\":\"6876543463765\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8082/signup/users",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8082",
+					"path": [
+						"signup",
+						"users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8082/signup/users",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"userName\":\"pankaj\",\r\n    \"email\":\"pankaj@123\",\r\n    \"password\":\"pass@123\",\r\n    \"phone\":\"987087879\",\r\n    \"role\":\"admin\",\r\n    \"aadharNo\":\"786940323009\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8082/signup/users",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8082",
+					"path": [
+						"signup",
+						"users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8082/userAddress/add",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"userId\":\"1\",\r\n    \"addressLine\":\"At-Mangalwarpeth karad\",\r\n    \"locationId\":\"1\",\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8082/userAddress/add",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8082",
+					"path": [
+						"userAddress",
+						"add"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8082/deliveryAddress/add",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"userId\":\"1\",\r\n    \"deliveryArea\":\"At-Mangalwarpeth karad\",\r\n    \"city\":\"karad\",\r\n    \"pinCode\":\"415110\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8082/deliveryAddress/add",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8082",
+					"path": [
+						"deliveryAddress",
+						"add"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8082/deliveryAddress/add",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"deliveryArea\":\"At-Somwarpeth karad\",\r\n    \"city\":\"karad\",\r\n    \"pinCode\":\"415110\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8082/deliveryAddress/add",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8082",
+					"path": [
+						"deliveryAddress",
+						"add"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8082/userAddress/add",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"userId\":\"2\",\r\n    \"addressLine\":\"At-Somwarpeth karad\",\r\n    \"locationId\":\"2\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8082/userAddress/add",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8082",
+					"path": [
+						"userAddress",
+						"add"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8082/order/AddOrder",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "",
+							"value": null,
+							"type": "file",
+							"disabled": true
+						},
+						{
+							"key": "tiffinName",
+							"value": "pizza",
+							"type": "text"
+						},
+						{
+							"key": "tiffinImage",
+							"value": null,
+							"type": "file"
+						},
+						{
+							"key": "tiffinPrice",
+							"value": "80",
+							"type": "text"
+						},
+						{
+							"key": "description",
+							"value": "1 plate chicken with rassa and 4 chapati",
+							"type": "default"
+						}
+					],
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8082/tiffin/addTiffin",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8082",
+					"path": [
+						"tiffin",
+						"addTiffin"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8082/tiffin/addTiffin",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "",
+							"value": null,
+							"type": "file",
+							"disabled": true
+						},
+						{
+							"key": "tiffinName",
+							"value": "matan thali",
+							"type": "text"
+						},
+						{
+							"key": "tiffinImage",
+							"value": null,
+							"type": "file"
+						},
+						{
+							"key": "tiffinPrice",
+							"value": "120",
+							"type": "text"
+						},
+						{
+							"key": "description",
+							"value": "1 plate matan with tambda bandhara rassa and 4 chapati",
+							"type": "default"
+						}
+					],
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8082/tiffin/addTiffin",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8082",
+					"path": [
+						"tiffin",
+						"addTiffin"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8082/payment",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"orderId\":2,\r\n    \"paymentType\":\"COD\",\r\n    \"totalPayment\":\"1200\",\r\n    \"paymentStatus\":\"unpaid\",\r\n    \"paymentTime\":\"2022-10-18\"\r\n   \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8082/payment",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8082",
+					"path": [
+						"payment"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8082/payment",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"orderId\":1,\r\n    \"paymentType\":\"UPI\",\r\n    \"totalPayment\":\"1000\",\r\n    \"paymentStatus\":\"paid\",\r\n    \"paymentTime\":\"2022-10-12\"\r\n   \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8082/payment",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8082",
+					"path": [
+						"payment"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8082/daywiseOrder/addOrder",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"orderId\":1,\r\n    \"date\":\"2022-10-25\",\r\n    \"session\":\"fcxxcz\",\r\n    \"requirement\":\"2\",\r\n    \"status\":\"pending\",\r\n    \"deliveryBoyId\":\"7\"\r\n   \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8082/daywiseOrder/addOrder",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8082",
+					"path": [
+						"daywiseOrder",
+						"addOrder"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8082/daywiseOrder/addOrder",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"orderId\":2,\r\n    \"date\":\"2022-10-22\",\r\n    \"session\":\"ggdg\",\r\n    \"requirement\":\"1\",\r\n    \"status\":\"delivered\",\r\n    \"deliveryBoyId\":\"8\"\r\n   \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8082/daywiseOrder/addOrder",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8082",
+					"path": [
+						"daywiseOrder",
+						"addOrder"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8082/order/AddOrder",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"orderId\":1,\r\n    \"startDate\":\"2022-10-25\",\r\n    \"endDate\":\"2022-11-5\",\r\n    \"totalDays\":\"10\",\r\n    \"totalAmount\":\"1200\",\r\n    \"tiffinId\":\"7\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8082/order/AddOrder",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8082",
+					"path": [
+						"order",
+						"AddOrder"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8082/tiffin/addTiffin",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"userId\":1,\r\n    \"startDate\":\"2022/10/12\",\r\n    \"endDate\":\"2022/10/22\",\r\n    \"totalDays\":13,\r\n    \"totalAmount\":1300,\r\n    \"tiffinId\":8\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8082/tiffin/addTiffin",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8082",
+					"path": [
+						"tiffin",
+						"addTiffin"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
